@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<div class="back">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>TAB Unlocked</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-US-Compatible"
+  content="IE-edge">
+  <meta name="viewport"
+  content="width=device-width,
+  initial-scale-1.0">
+
+</head>
+
+<body>
+
+  <div class="container2">
+    <section class="one">
+      <h1 class="title">TAB Unlocked</h1>
+      <p class="welcome">Welcome to my website. Here is where I put the games that I like. Enjoy.</p>
+      <h2>Press &#8595; for games and about page. </h2>
+        </section>
+    <section class="two">
+      <div class="gfg">
+        <p>Scroll for more games.</p>
+        <center>
+        <a href="Minecraft.html"><button>Minecraft</a></button>
+        <br>
+        <a href="rooftop.html"><button>Rooftop Snipers</button></a>
+        <br>
+        <a href="slope.html"><button>Slope</button></a>  
+        <br>
+        <a href="tunnel-rush.html"><button>Tunnel Rush</button></a> 
+        <br> 
+        <a href="TABS.html"><button>TABS</button></a>  
+        </center>
+        </div>
+    </section>
+    
+  </div>
+
+  <script src="myscripts.js"></script>
+  <script>
+      window.onbeforeunload = function() {
+          return "You're leaving the site.";
+      };
+      $(document).ready(function() {
+          $('a[rel!=ext]').click(function() { window.onbeforeunload = null; });
+          $('form').submit(function() { window.onbeforeunload = null; });
+      });
+  </script>
+
+
+
+<script>
+  // When the user clicks on <div>, open the popup
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+  </script>
+
+
+<a href="https://www.classroom.google.com" accesskey="/"></a>
+
+
+
+
+
+</body>
+</div>
+</html>
